@@ -1,7 +1,10 @@
 language: python
+
 python:
-- '2.7'
+  - "2.7"
+
 script: echo "No tests"
+
 deploy:
   skip_cleanup: true
   on:
