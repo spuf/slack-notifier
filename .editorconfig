@@ -10,5 +10,6 @@ indent_style = space
 indent_size = 4
 tab_width = 4
 
-[debian/rules]
-indent_style = tab
+[*.yml]
+indent_style = space
+indent_size = 2
